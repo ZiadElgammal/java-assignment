@@ -1,0 +1,49 @@
+Exercise 1.1:
+
+1- statement : part of a program that specifies one step  of an algorithm .
+    Comment : a part of a program that contains information about the program but has no effect when the the program runs .
+
+2- it means the ability of a program to run on more than one kind of computer(operating system) .
+
+3- in common English compile means :gather together or to collect information from different places and arrange it in a book ,report or a list .
+ In computer language ,to compile means to translate a program from a high level language into a low level language , all at once , in preparation for later execution .
+
+4- executable is another name for object code that is ready to run on a specific hardware .
+
+
+
+Exercise 1.2:
+
+1-  
+package assg2;
+public class Assg2 {
+    public static void main(String[] args) {
+        System.out.println("hello world");
+          }
+  } 
+
+2-
+package assg2;
+public class Assg2 {
+   public static void main(String[] args) {
+        System.out.println("hello world");
+              System.out.println("how are you?");
+    }
+   }
+
+3-   
+package assg2;
+public class Assg2 {
+ public static void main(String[] args) {
+        System.out.println("hello world");
+              System.out.println("how are you?");
+//this is the logic code
+    }
+  }
+
+Exercise 1.3:
+
+5- the program still works if we removed public in (public class) .
+7- the program still works when we replace println with print but the output is in a single line (hello worldhow are you?) .
+8- while removing the closing parentheses , the program still works but removing the opening parentheses makes it stop working .
+   The same  
