@@ -1,0 +1,116 @@
+Exercise 2.3:
+
+1- 
+package assg2;
+import java.util.Scanner;
+
+public class Assg2 {
+  public static void main(String[] args) {
+        int hour ;
+int minute ;
+System.out.println("please enter the time in the format hour:minutes ");
+Scanner s = new Scanner(System.in);
+ hour=s.nextInt();
+ minute=s.nextInt();        
+System.out.print("The current time is ");
+System.out.print(hour);
+System.out.print(":");
+System.out.print(minute);
+System.out.println(".");
+//this is the logic code
+    } 
+}		
+
+2- 
+package assg2;
+public class Assg2 {
+   public static void main(String[] args) {
+        int hour =9,minute =30, second=45;
+ hour= hour+12;
+System.out.print("The current time is ");
+System.out.print(hour);
+System.out.print(":");
+System.out.print(minute);
+System.out.print(":");
+System.out.print(second);
+System.out.println(".");
+//this is the logic code
+    }
+    
+}
+
+
+
+
+
+3-
+package assg2;
+public class Assg2 {
+    public static void main(String[] args) {
+        int hour =12,minute =20, second=45,numOfSec=0;
+ hour= hour+12;
+System.out.print("The current time is ");
+System.out.print(hour);
+System.out.print(":");
+System.out.print(minute);
+System.out.print(":");
+System.out.print(second);
+System.out.println(".");
+if(hour==24 && second>=1 && minute>=1){
+numOfSec = ( minute * 60 ) + second ;
+System.out.println("number of seconds since midnight= " +numOfSec);
+}
+//this is the logic code
+    } 
+}
+4- 
+package assg2;
+import java.util.Scanner;
+public class Assg2 {
+   public static void main(String[] args) {
+        int hour =8,minute =20, second=45,numOfSec=0,remainSec=0;
+ hour= hour+12;
+System.out.print("The current time is ");
+System.out.print(hour);
+System.out.print(":");
+System.out.print(minute);
+System.out.print(":");
+System.out.print(second);
+System.out.println(".");
+if(hour==24 && second>=1 && minute>=1){
+numOfSec = ( minute * 60 ) + second ;
+System.out.println("number of seconds since midnight= " +numOfSec);
+}
+if(hour<24){
+    remainSec= (24 * 60 * 60)-((hour * 60 * 60) +(minute * 60) + second);
+System.out.println("remaining seconds in the day =" + remainSec);
+}else {System.out.println("no remaining seconds";}
+//this is the logic code
+    }
+}
+5-    package assg2;
+   import java.util.Scanner;
+     public class Assg2 {
+      public static void main(String[] args) {
+       int hour =23,minute =50, second=45;
+       double dayPercentage;
+        dayPercentage = (((( hour *60*60)+ (minute * 60) + second )*100)/(24*60*60))
+ System.out.print("The percentage of the day that has passed= "+dayPercentage);
+ System.out.print("%");
+//this is the logic code
+     }    
+ }
+
+6- 
+package assg2;
+import java.util.Scanner;
+  
+public class Assg2 {
+        public static void main(String[] args) {
+        int startTime =10 , currentTime = 16,elapsedTime;
+        elapsedTime = currentTime -startTime ;
+System.out.print("the elapsed time ="+ elapsedTime);
+System.out.print("hours");
+//this is the logic code
+    } 
+}
